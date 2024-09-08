@@ -1,0 +1,69 @@
+/* HomePage.css */
+.homePageContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+  background: linear-gradient(180deg, #0d0e11, #0f1124);
+}
+
+.forom {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.searchContainer {
+  width: 80%;
+  text-align: center;
+  max-width: 1000px;
+  max-height: 150px;
+  font-size: 5vw;
+  box-sizing: content-box;
+  font-weight: bold;
+  padding: 20px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: #ffffff00;
+  transition: 0.2s ease-in-out;
+  outline: none;
+}
+
+.searchContainer:focus {
+  background-color: #19c2e01e;
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: 0 0 50px #33cce0b2;
+}
+
+.searchContainer input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: inherit;
+  font-size: inherit;
+}
+
+.searchContainer::placeholder {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .searchContainer {
+    font-size: 50px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .searchContainer {
+    font-size: 35px;
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,58 @@
+.MainBox{
+    width: 100%;
+    /* height: 100%; */
+    border: 1px solid white;
+}
+.HeadingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.gridContainer{
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+    flex:1;
+}
+.card{
+    /* border: 1px solid rgba(255, 255, 255, 0.089); */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 500px;
+    width: 300px;
+    /* background-color: white; */
+}
+.rating{
+    width: 100%;
+    /* position: relative; */
+    border-radius: 5px;
+    /* top: 2px; */
+    height: 10%;
+    background-color:#0f0f0f;
+}
+
+.coverImage{
+    width: 100%;
+    height: 100%;
+
+}
+.moviename{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    height: 50px;
+    background-color:#ffffff0c;
+}
