@@ -37,7 +37,7 @@ function SearchResult() {
     if (!query) return;
 
     try {
-      const response = await fetch(`http://www.omdbapi.com/?s=${query}&apikey=b5b4bd76`);
+      const response = await fetch(`http://www.omdbapi.com/?s=${query}&apikey={yourApiKey}`);
       const data = await response.json();
       if (data.Response === "True") {
         setMovies(data.Search);
